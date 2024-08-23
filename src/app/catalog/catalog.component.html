@@ -1,0 +1,53 @@
+<div>
+    <div class="catalog-header">
+        <div class="catalog-headline">
+            Bring Season's Best To Your Next Event!
+        </div>
+        <div class="catalog-description">
+            Our half gallons serve up to 5 people. That's alot of happy people.
+        </div>
+    </div>
+
+
+    <div class="gallon">
+        <div class="drink-header">Half Gallons Available</div>
+        <div class="drink-container">
+            <div class="drink-grid">
+                <div *ngFor="let drink of availableDrinks">
+                    <div class="drink-card-container">
+                        <div class="drink-card">
+                            <a [routerLink]="['/details', drink.id]">
+                                <img [src]="drink.photo"/>
+                            </a>
+                            <div class="drink-name">{{ drink.name }}</div>
+                            <div class="drink-price">{{ drink.price }}</div>
+                            <!--sugar level and quick add to cart-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="seasonal">
+        <div class="drink-header">Seasonal</div>
+        <div class="drink-container">
+            <div class="drink-grid">
+                <div *ngFor="let drink of unavailableDrinks">
+                    <div class="drink-card-container">
+                        <div class="drink-card">
+                            <a [routerLink]="['/details', drink.id]">
+                                <img [src]="drink.photo"/>
+                            </a>
+                            <div class="drink-name">{{ drink.name }}</div>
+                            <div class="drink-price">{{ drink.price }}</div>
+                            <!--sugar level and quick add to cart-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer"></div>
+</div>

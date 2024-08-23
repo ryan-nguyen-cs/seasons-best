@@ -1,0 +1,83 @@
+<div>
+    <div class="logo">
+        <img class="brand-logo" src="/assets/brand-logo.png" alt="logo" />
+    </div>
+    <div class="headline">
+        <div class="headline-container">
+            <div class="news-container">
+                <div ngbAccordion [closeOthers]="true">
+                    @for (entry of newsEntries; track entry) {
+                        <div ngbAccordionItem [collapsed]="entry.id !== 0">
+                            <div ngbAccordionHeader class="accordion-button custom-header" (click)="getImageData(entry)">
+                                <button ngbAccordionToggle  class="btn container-fluid text-start ps-0 news-header">{{ entry.headline }}</button>
+                                <p class="m-0 small">{{ entry.date }}</p>
+                            </div>
+                            <div ngbAccordionCollapse>
+                                <div ngbAccordionBody>
+                                    <ng-template>
+                                        <div class="news-location">Location: {{ entry.location }}</div>
+                                        <div class="news-description">{{ entry.description }}</div>
+                                    </ng-template>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+
+            <div class="news-image">
+                <img [src]="photoURL"/>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="catering-container">
+        <div class="catering-header">We want to celebrate every season with you!</div>
+        <div class="catering-description-container">
+            <div class="catering-description">Cater with us for your next fresh chapter. You’ll be able to sample our drinks to find the right ones for the occasion. Contact us here for more details.</div>
+        </div>
+        <div class="contact-button-container">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSctfOqslI9sz6NkFpQtf1rHecGjgrgCOdxuJqhObS5bVRREVQ/viewform">
+                <button type="button" class="contact-button">Contact Us</button>
+            </a>
+        </div>
+    </div>
+
+    <div class="favorites-container">
+        <div class="favorites-header">Some of our favorites this season...</div>
+        <div class="drink-container">
+            <div class="drink-grid">
+                <div *ngFor="let drink of favoriteDrinks">
+                    <div class="drink-card-container">
+                        <div class="drink-card">
+                            <a [routerLink]="['/details', drink.id]">
+                                <img [src]="drink.photo"/>
+                            </a>
+                            <div class="drink-name">{{ drink.name }}</div>
+                            <div class="drink-price">{{ drink.price }}</div>
+                            <!--sugar level and quick add to cart-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="favorites-footer">
+            <a [routerLink]="['/catalog']">
+                <div class="favorites-footer-text">
+                    Browse ->
+                </div>
+            </a>
+        </div>
+
+        <!--flex drink cards with links-->
+    </div>
+
+    <div class="insta-container">
+        <div class="insta-header">Keep up with our Instagram</div>
+        <a href="https://www.instagram.com/seasonsbest.tea/">
+            <img src="/assets/brand-logo.png"/>
+        </a>
+    </div>
+    
+</div>

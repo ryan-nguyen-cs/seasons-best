@@ -1,0 +1,172 @@
+.logo {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: -100px;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        top: +60px;
+    }
+}
+
+.brand-logo {
+    width: 40%;
+    z-index: 1;
+}
+
+.headline {
+    display: flex;
+    justify-content: center;
+}
+
+.headline-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    justify-content: space-evenly;
+    max-width: 1200px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+    .news-container {
+        padding: 20px;
+        width: 500px;
+        overflow: auto;
+        max-height: 500px;
+        z-index: 2;
+
+        .news-header {
+            font-weight: 500;
+        }
+    }
+
+    .news-image {
+        padding: 20px;
+        max-width: 500px;
+        max-height: 500px;
+
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
+    
+    .news-location {
+        font-style: italic;
+        margin: 0 0 10px 0;
+    }
+
+    .custom-header::after {
+        content: none;
+    }
+
+    .accordion-button {
+        max-height: 40px;
+        padding: 10px;
+    }
+
+    .accordion-button:not(.collapsed) {
+        background-color: lightpink;
+    }
+}
+
+
+.catering-container {
+    margin: 100px;
+    
+    .catering-header {
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .catering-description-container {
+        display:flex;
+        justify-content:center;
+
+        .catering-description {
+            font-size: 20px;
+            margin: 5% 30%;
+            text-align: center;
+        }
+    }
+}
+
+.contact-button-container{
+    display: flex;
+    justify-content: center;
+}
+
+.insta-container {
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .insta-header {
+        font-size: 30px;
+    }
+
+    img{
+        max-width: 100px;
+    }
+}
+
+.drink-header {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+    font-size: 20px;
+}
+
+.drink-container {
+    display: flex;
+    justify-content: center;
+}
+
+.drink-grid {
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+
+    .drink-card-container {
+        max-width: 400px;
+        padding: 1rem;
+
+        .drink-card {
+            padding: 2rem;
+            border-radius: 20px;
+            box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+           
+            img {
+                border-radius: 20px;
+                max-width: 250px;
+                
+            }
+
+            .drink-name {
+                font-size: 18px;
+                margin: 5px;
+            }
+        }
+    }
+}
+
+.favorites-header {
+    margin: 0 10%;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.favorites-footer {
+    display: flex;
+    justify-content: right;
+    margin: 0 10%;
+    font-size: 20px;
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}

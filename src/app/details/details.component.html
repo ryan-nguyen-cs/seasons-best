@@ -1,0 +1,16 @@
+<div class="kek">
+    <div class="header"></div>
+    <div class="details-container">
+        <img [src]="drink?.photo"/>
+
+        <div class="drink-details">
+            <div class="drink-header">{{ drink?.name }}</div>
+            <div class="drink-description">{{ drink?.description }}</div>
+            <div class="drink-price">{{ drink?.price }}</div>
+
+            <div class="add-to-cart-container" *ngIf="(drink?.availability)">
+                <button class="cart-button" type="button">Add To Cart</button>
+            </div>
+        </div>
+    </div>
+</div>

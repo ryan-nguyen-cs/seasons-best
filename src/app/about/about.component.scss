@@ -1,0 +1,23 @@
+.about-us-container {
+    display: flex;
+    margin: 100px 0 0 0;
+    
+    .our-story-container {
+        margin: 2rem;
+        max-width: 500px;
+
+        .our-story-header {
+            font-size: 30px;
+            margin: 2rem 0;
+        }
+
+        .our-story-description {
+            font-size: 20px;
+        }
+    }
+
+    .our-story-image-container {
+        margin: 2rem;
+        max-width: 500px;
+    }
+}

@@ -1,0 +1,40 @@
+.header {
+    margin: 10%;
+}
+
+.details-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+
+    img {
+        max-width: 650px;
+    }
+
+    .drink-details {
+        max-width: 600px;
+        padding: 10% 10%;
+
+        .drink-header {
+
+            font-size: 30px;
+            text-align: left;
+        }
+        
+        .drink-description {
+            padding: 50px 0px;
+            font-size: 18px;
+        }
+        
+        .drink-price {
+            font-size: 20px;
+        }
+        
+        .cart-button {
+            margin: 50px 0px;
+        }
+    }
+}
+
+
