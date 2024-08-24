@@ -7,7 +7,8 @@ import * as drinks from '../assets/drinks.json';
 })
 export class DrinkService {
   getDrinks(): Drink[] {
-    return drinks.drinks;
+    let drinkList = drinks;
+    return drinkList.drinks;
   }
 
   getDrinkById(id: number) {

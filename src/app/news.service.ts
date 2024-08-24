@@ -7,7 +7,7 @@ import * as newsEntries from '../assets/news.json';
 })
 export class NewsService {
   getNewsEntries(): NewsEntry[] {
-    return newsEntries.entries;
+    let entries = newsEntries;
+    return entries.entries;
   }
-
 }
