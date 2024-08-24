@@ -1,6 +1,6 @@
 import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterLink } from '@angular/router';
+import { RouterModule, RouterLink } from '@angular/router';
 
 import { DrinkService } from '../drink.service';
 import { Drink } from '../drink';
@@ -8,7 +8,7 @@ import { Drink } from '../drink';
 @Component({
   selector: 'app-catalog',
   standalone: true,
-  imports: [CommonModule, RouterLink],
+  imports: [CommonModule, RouterLink, RouterModule],
   templateUrl: './catalog.component.html',
   styleUrl: './catalog.component.scss'
 })

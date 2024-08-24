@@ -1,6 +1,6 @@
 import { Component, inject} from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ActivatedRoute } from '@angular/router';
+import { RouterModule, ActivatedRoute } from '@angular/router';
 
 import { DrinkService } from '../drink.service';
 import { Drink } from '../drink';
@@ -8,7 +8,7 @@ import { Drink } from '../drink';
 @Component({
   selector: 'app-details',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, RouterModule],
   templateUrl: './details.component.html',
   styleUrl: './details.component.scss'
 })

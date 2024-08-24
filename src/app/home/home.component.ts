@@ -3,14 +3,14 @@ import { CommonModule } from '@angular/common';
 import { NewsEntry } from '../news-entry';
 import { NewsService } from '../news.service';
 import { NgbAccordionModule } from '@ng-bootstrap/ng-bootstrap';
-import { RouterLink } from '@angular/router';
+import { RouterLink, RouterModule } from '@angular/router';
 import { DrinkService } from '../drink.service';
 import { Drink } from '../drink';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [NgbAccordionModule, RouterLink, CommonModule],
+  imports: [NgbAccordionModule, RouterLink, CommonModule, RouterModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
