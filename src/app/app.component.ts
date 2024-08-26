@@ -17,7 +17,7 @@ export class AppComponent {
   showLogo: boolean = false;
 
   constructor(private router: Router) {
-    router.events.subscribe((e) => {
+    this.router.events.subscribe((e) => {
       if (e instanceof NavigationStart) {
         if(e['url'] == '/') {
           this.showLogo = false;
