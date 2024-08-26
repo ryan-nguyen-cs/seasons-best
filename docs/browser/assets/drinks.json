@@ -1,0 +1,67 @@
+{
+    "drinks": [
+        {
+            "id": 0,
+            "name": "Brown Sugar Boba Milk Tea",
+            "price": "$24.00",
+            "description": "Enjoy the sweet and creamy goodness of our Brown Sugar Boba Milk Tea! This drink combines smooth milk with rich brown sugar syrup and chewy boba pearls for a tasty treat that's hard to resist. It's the perfect blend of flavors and textures, making it a go-to choice for boba lovers. Whether you're trying boba for the first time or you're already a fan, our Brown Sugar Boba Milk Tea is sure to hit the spot.",
+            "availability": true,
+            "photo": "/assets/Brown-Sugar-Milk-Tea.png",
+            "favorite": false
+        },
+        {
+            "id": 1,
+            "name": "Four Season Milk Tea",
+            "price": "$20.00",
+            "description": "Discover the refreshing taste of our Four Season Milk Tea! This unique blend combines the best of all seasons with a mix of oolong, green, and black teas, giving it a balanced and smooth flavor. With its rich tea notes and creamy finish, it's a perfect choice for any time of the year. Whether you're a tea lover or just looking to try something new, our Four Season Milk Tea is sure to become your new favorite.",
+            "availability": true,
+            "photo": "/assets/Four-Season-Milk-Tea.jpg",
+            "favorite": true
+        },
+        {
+            "id": 2,
+            "name": "Jasmine Green Milk Tea",
+            "price": "$24.00",
+            "description": "Treat yourself to the light and fragrant taste of our Jasmine Green Milk Tea! This drink features the delicate floral notes of jasmine green tea combined with creamy milk for a refreshing and smooth experience. It's the perfect pick-me-up when you want something that's both soothing and satisfying. Whether you're a fan of jasmine tea or just curious to try it, our Jasmine Green Milk Tea is a delicious choice that's sure to brighten your day.",
+            "availability": true,
+            "photo": "/assets/Jasmine-Green-Milk-Tea.jpg",
+            "favorite": true
+        },
+        {
+            "id": 3,
+            "name": "Roasted Oolong Milk Tea",
+            "price": "$20.00",
+            "description": "Experience the rich, toasty flavor of our Roasted Oolong Milk Tea! This drink combines the deep, smoky taste of roasted oolong tea with creamy milk for a bold and satisfying treat. It's perfect for those who love a drink with a bit more depth and character. Whether you're an oolong fan or just looking for something different, our Roasted Oolong Milk Tea is sure to become a new favorite.",
+            "availability": true,
+            "photo": "/assets/Roasted-Oolong-Milk-Tea.jpg",
+            "favorite": false
+        },
+        {
+            "id": 4,
+            "name": "Taro Coconut Latte",
+            "price": "$24.00",
+            "description": "Indulge in the creamy goodness of our Taro Coconut Latte! Made with fresh taro paste and rich coconut milk, this drink offers a sweet and nutty flavor that’s perfectly balanced. The freshly made taro paste gives it an authentic taste that sets it apart from the rest. Whether you're a taro lover or new to the flavor, our Taro Coconut Latte is a must-try for anyone looking for a smooth and satisfying treat.",
+            "availability": false,
+            "photo": "/assets/Taro-Coconut-Latte.jpg",
+            "favorite": true
+        },
+        {
+            "id": 5,
+            "name": "Wintermelon Jasmine Milk Tea",
+            "price": "$20.00",
+            "description": "Refresh yourself with the light and sweet flavor of our Wintermelon Jasmine Milk Tea! This drink blends the mellow sweetness of wintermelon with the delicate floral notes of jasmine tea, all balanced with creamy milk. It’s a unique combination that’s both soothing and refreshing, perfect for when you want something a little different. Whether you're a fan of jasmine tea or curious about wintermelon, our Wintermelon Jasmine Milk Tea is a delightful choice you’ll love.",
+            "availability": true,
+            "photo": "/assets/Wintermelon-Jasmine-Milk-Tea.jpg",
+            "favorite": false
+        },
+        {
+            "id": 6,
+            "name": "Wintermelon Lemondae",
+            "price": "$20.00",
+            "description": "Quench your thirst with our refreshing Wintermelon Lemonade! This drink combines the natural sweetness of wintermelon with the zesty kick of fresh lemonade, creating a perfect balance of sweet and tart flavors. It’s a light, energizing drink that’s great for cooling off on a hot day or whenever you need a refreshing pick-me-up. Whether you’re looking for something new or just love a good lemonade, our Wintermelon Lemonade is sure to hit the spot.",
+            "availability": false,
+            "photo": "/assets/Wintermelon-Lemonade.png",
+            "favorite": false
+        }
+    ]
+}

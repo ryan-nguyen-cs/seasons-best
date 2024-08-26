@@ -1,0 +1,28 @@
+{
+    "entries": [
+        {
+            "id": 0,
+            "headline": "Atlanta International Night Market",
+            "date": "9/21/24",
+            "description": "There are over 100 international communities who live in the metro Atlanta area. By sharing the unique and delicious foods of these communities at our events, the Atlanta International Night Market hopes to provide a platform for small businesses and individuals to find an audience in the broader community. Everything from Asian street food to European desserts all the way to North African delicacies are features at our festivals.",
+            "location": "330 Town Center Ave, Suwanee, GA 30024",
+            "photo": "assets/atl-night-market.jpg"
+        },
+        {
+            "id": 1,
+            "headline": "Beard Papa's Popup Event",
+            "date": "9/01/24",
+            "description": "Come join us at Beard Papa's for tasty pastries with our drinks! We're offering a free drink when you buy 5 pastries.",
+            "location": "3350 Steve Reynolds Blvd suite 103, Duluth, GA 30096",
+            "photo": "assets/beard-papas.jpg"
+        },
+        {
+            "id": 2,
+            "headline": "T-Shirt Giveaway",
+            "date": "8/27/24",
+            "description": "Every drink purchase goes towards one entry into our free T-shirt giveaway! There will be five shirts up for grabs.",
+            "location": "3350 Steve Reynolds Blvd suite 103, Duluth, GA 30096",
+            "photo": "assets/seasonsbest-tee.png"
+        }
+    ]
+}
